@@ -61,3 +61,30 @@ else if(isset($_GET['pnumber'])){
         </td>
     </tr>
 
+    <tr>
+    <td> Department </td>
+    <td> : </td>
+    <td> 
+        <select name="dnum" class="form-control">
+        <option value="" >--Please select department--</option> 
+        <?php
+            foreach ($deptList as $dept){
+                if($objProject->dept->dnumber == $dept->dnumber)
+                    echo '<option selected="true" value='.$dept->dnumber.'>'.$dept->dname.'</option>';
+                else
+                    echo '<option value='.$dept->dnumber.'>'.$dept->dname.'</option>';
+            }
+        ?>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td colspan = "2"></td>
+    <td><input type="submit" class="btn btn-success" value="Save" name="btnSubmit">
+        <a href="dashboardadmin.php?p=projectlist" class="btn btn-warning">Cancel</a></td>
+        </tr>
+        </table>
+</form>
+</div>
+</div>
+
