@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #000080;
+  }
+  
+  .navbar-brand {
+    color: white;
+  }
+  
+  .navbar-nav a {
+    color: white;
+  }
+  
+  .isi {
+    background-color: #ADD8E6;
+    color: Black;
+    padding: 40px 80px;
+    font-family: "Monserrat";
+  }
+  
+  .footer {
+    background-color: #000080;
+    margin-top: -20px;
+    text-align: center;
+    color: white;
+  }
+  
