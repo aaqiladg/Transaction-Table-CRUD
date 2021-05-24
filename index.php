@@ -63,7 +63,7 @@
     ?>
     </div>
     <div class = "footer">
-      <p>@Abd.Faqih2021</p>
+      <p>aaqila</p>
     </div>
 </body>
 </html>
